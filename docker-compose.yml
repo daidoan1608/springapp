@@ -10,7 +10,7 @@ services:
       MYSQL_USER: admin
       MYSQL_PASSWORD: 123@abc
     ports:
-      - "3307:3306"
+      - "3306:3306"
     networks:
       - app-network
     volumes:
